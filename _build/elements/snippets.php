@@ -2,7 +2,7 @@
 
 return [
     'tgwhaicons' => [
-        'file' => 'tgwhaicons',
+        /*'file' => 'tgwhaicons',
         'description' => 'tgwhaicons snippet to list items',
         'properties' => [
             'tpl' => [
@@ -33,6 +33,14 @@ return [
                 'type' => 'combo-boolean',
                 'value' => false,
             ],
+        ],*/
+        'file' => 'tgwhaicons',
+        'description' => 'telegram and whatsap link-icons ',
+        'properties' => [
+            'tpl' => [
+                'type' => 'textfield',
+                'value' => 'tpl.tgwhaicons.item',
+            ]
         ],
     ],
 ];

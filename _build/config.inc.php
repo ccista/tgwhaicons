@@ -17,14 +17,14 @@ return [
     'install' => true,
     // Which elements should be updated on package upgrade
     'update' => [
-        'chunks' => false,
+        'chunks' => true,
         'menus' => true,
         'permission' => true,
         'plugins' => true,
         'policies' => true,
         'policy_templates' => true,
         'resources' => false,
-        'settings' => false,
+        'settings' => true,
         'snippets' => true,
         'templates' => false,
         'widgets' => false,
